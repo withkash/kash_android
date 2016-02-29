@@ -1,1 +1,1 @@
-include ':app', ':kash-android'
+include ':example', ':kash-android'

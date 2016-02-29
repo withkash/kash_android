@@ -13,7 +13,6 @@ apply plugin: 'com.android.library'
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.0.0'
-    compile 'com.afollestad:material-dialogs:0.7.8.1'
 }
 
 ext {
@@ -29,7 +28,7 @@ ext {
     siteUrl = 'http://www.withkash.com'
     gitUrl = 'https://github.com/withkash/kash_android'
 
-    libraryVersion = '0.1.0'
+    libraryVersion = '0.2.6'
 
     developerId = 'withkash'
     developerName = 'Kash Corp.'
@@ -45,10 +44,10 @@ android {
     buildToolsVersion "23.0.0"
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 10
         targetSdkVersion 23
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "2.0"
     }
     buildTypes {
         release {
